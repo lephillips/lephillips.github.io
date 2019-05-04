@@ -1,0 +1,75 @@
+body {
+    background-color: lightgray;
+}
+
+.resume-container {
+    background-color: white;
+    margin: 100px auto;
+}
+
+.profile-image-section, .body-section {
+    transform: translateY(-75px);
+}
+
+.profile-image-section img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.profile-image-section h1 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.name-color {
+    color: orange;
+}
+
+h2.section-title {
+    color: orange;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 15px 0;
+}
+p.d-none.d-md-block.float-left {
+    clear: both;
+}
+
+.education-section .gray-box {
+    background-color: lightgray;
+    padding: 20px 20px 0 20px;
+}
+
+.experiences-section .col-3 p {
+    color: lightgray;
+    font-weight: bold;
+}
+
+.contact-icons i {
+    font-size: 20px;
+    color: gray;
+}
+
+.skills-section p {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hobbies-section p {
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* media queries */
+@media (max-width: 768px) { 
+    .education-section .gray-box {
+        transform: translateX(-10px);
+    }
+}
